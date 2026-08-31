@@ -112,7 +112,7 @@ trades some carbon reduction for substantially stronger resilience and
 equity — the exact trade-off no existing single-objective tool exposes,
 per your Research Gap (Papers 1, 2, 4, 6, 8).
 
-## What's NOT yet built (be upfront about this at Review 2)
+## What's NOT yet built 
 
 - Full multi-agent LLM orchestration (Carbon/Resilience/Equity/Budget/Coordinator
   agents as separate reasoning agents, per Papers 5 & 6) — the dashboard's
