@@ -5,8 +5,6 @@ Chennai pilot implementation for BCSE497J Project-I, Review 2.
 
 ---
 
-## What this is (and isn't) — read this before your review
-
 This is a **benchmark-grounded, city-real prototype**, not a system trained on
 a single downloaded "municipal capex CSV" (that dataset doesn't exist in the
 form people imagine, for any city, publicly). Here's exactly what's real and
@@ -21,7 +19,7 @@ what's a first-pass estimate, so you can represent it honestly to your panel:
 | Cost / carbon-reduction / resilience-benefit ranges per category | **Benchmark-grounded order-of-magnitude ranges** (see source list in `data/raw/generate_projects.py` docstring: MNRE, CEA, BEE, CPHEEO, FAME-II). Individual project rows are randomly sampled within these ranges. **Upgrade opportunity before Final Review:** GCC's published capital-expenditure-by-zone data (referenced in the Nandhini et al. study and on the Smart Cities Chennai portal) could replace the drainage category's synthetic costs with real line-item figures, since that's exactly what that study analyzed. |
 | NSGA-II optimization, Pareto front, baseline comparisons | **Fully real and working** — this is your actual contribution |
 
-**How to say this to your panel:** *"Ward-level vulnerability is grounded in a
+ *"Ward-level vulnerability is grounded in a
 peer-reviewed IIT Kharagpur/NIUA study (Nandhini et al., 2025) that built a
 TOPSIS composite vulnerability index for Chennai using satellite and census
 data — and that same study found a statistically significant negative
